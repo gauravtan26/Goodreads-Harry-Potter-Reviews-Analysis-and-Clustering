@@ -10,9 +10,11 @@ Here, we are trying to analyse the reviews on Harry Potter Books given by reader
 
 ## Distribution of the number of reviews with time
 <img src="https://user-images.githubusercontent.com/65237445/149659085-61ce5f20-8aa5-4f1f-ab29-c0faf537df66.PNG" width="400" height = "400">
+In the above plot, we can don't see any decreasing trend in the number of new reviews given by users on goodreads which tells that number of new readers is not decreasing.
 
 ## Average Ratings 
 <img src="https://user-images.githubusercontent.com/65237445/149659172-d6de6226-4687-427e-907f-5b8361db4c06.png" width="400" height = "300">
+In the above table, we can see that the "Harry Potter and the Goblet of Fire" is the higest rated book and "Harry Potter and the Cursed Child" is the lowest rated book. 
 
 ## Brief Introduction to K-Means
 K-means is a common method of clustering in data science and can be easily implemented via the Python library Scikit-Learn (see Part Two of this book). The K-means method of clustering takes in the textual data and places all documens in k number of clusters. In this scenario, the researcher assigns a numerical variable for k, so if the researcher wished to see all texts clustered into 10 topics, or clusters, the k-means algorithm would find the documents with the greatest degree of similarity and place them in the closest mean cluster. The result is a forced clustering of all texts neatly into 10 clusters. We can then discern their topics by examining the words that overlap between texts in each cluster.
